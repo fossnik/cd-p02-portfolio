@@ -1,13 +1,87 @@
 <!doctype html>
 <html lang="en">
-<header>
+
+<style>
+  .smaller-image {
+      width: 300px;
+  }
+  .medium-image {
+      width: 500px;
+  }
+  .footend {
+      font-family: monospace;
+      text-align: center;
+  }
+  .pulp {
+      padding: 30px;
+  }
+  .navbar {
+      float: left;
+      position: fixed;
+      top: 0;
+      width: 100%;
+  }
+</style>
+
+<head>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
     <meta charset="UTF-8">
     <title>Portfolio Page of Zack</title>
-</header>
+</head>
 
-<body>
+    <body>
+        <header>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#firstsection">Established Skillsets</a></li>
+                    <li><a href="#secondsection">Currently Learning</a></li>
+                    <li><a href="#thirdsection">Working Presently With</a></li>
+                </ul>
+            </div>
+        </header>
     
-</body>
-
+        <main>
+        <img class="smaller-image" src="http://new2.fjcdn.com/pictures/10+10+confirmed+best+stock+photo_433a6c_5249745.jpg" alt="Not a picture of myself, because I'm bashful." title="Stock Photo">
+            <section id="firstsection" class="pulp">
+                <p>
+                    Established Skillsets:
+                    <ul>
+                      <li>PC system building including system assembly, setup, diagnosis, and optimization.</li>
+                      <li>System imaging and data backup using GhostCast and Windows Deployment toolkit &amp; sysprep.</li>
+                      <li>Building and testing UTP, coaxial and fiber optic cables + TCP/IP network stack.</li>
+                      <li>IEEE 568A/B jacks, 110 block patch panel’s punch down installation, cabling.</li>
+                    </ul>
+                </p>
+                <img class=medium-image src="https://pixabay.com/get/ec34b40f2af31c22d2524518a33219c8b66ae3d110b9164691f6c578/hippo-515027_1280.jpg" alt="Just Picture of a Hippo" title="Hippo"> 
+            </section>
+            
+            <section id="secondsection">
+                <p>
+                    Currently Learning:
+                    <ul>
+                        <li>HTML and <a href="#" title="Cascading Style Sheets">CSS</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" title="Python">Python</a></li>
+                        <li>Full Stack Web Development</li>
+                        <li><a href="https://en.wikipedia.org/wiki/JavaScript" title="Javascript">JavaScript</a></li>
+                    </ul>
+                <img class=medium-image src="https://pixabay.com/get/ec34b40f2af31c22d2524518a33219c8b66ae3d110b9164691f6c578/hippo-515027_1280.jpg" alt="Just Picture of a Hippo" title="Hippo"> 
+                </p>
+            </section>
+            
+            <section id="thirdsection">
+                <p>
+                    Currently working with the <a href="https://artscenter.waterfire.org/" title="WaterFire">WaterFire Arts Center</a>, and <a href="http://intracitygeeks.org/" title="IntraCityGeeks">IntraCityGeeks</a>
+                </p>
+                <p>
+                    <h3><a href="https://fossnik.github.io/html-me-something/" title="Tribute Page">Old Tribute Page</a></h3>
+                </p>
+                <img class=medium-image src="https://pixabay.com/get/ec34b40f2af31c22d2524518a33219c8b66ae3d110b9164691f6c578/hippo-515027_1280.jpg" alt="Just Picture of a Hippo" title="Hippo"> 
+            </section>
+        </main>
+    
+        <footer>
+            <hr>
+            <h5 class="footend">CareerDevs, Providence, RI</h5>
+        </footer>
+    </body>
 </html>
